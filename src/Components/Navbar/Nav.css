@@ -1,0 +1,19 @@
+.nav-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.search-input{
+    padding: 0 0 0 10px;
+    height: 32px;
+    border-radius: 5px;
+    width: 256px;
+    border: 1px solid black;
+}
+
+.nav-header{
+    font-weight: 400;
+}

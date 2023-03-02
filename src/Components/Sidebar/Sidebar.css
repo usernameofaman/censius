@@ -1,0 +1,38 @@
+
+.sidebar {
+    width: 256px;
+    background-color: var(--background);
+    height: 100vh;
+    padding: 7% 0 0 0;
+    transition: all 0.9s cubic-bezier(.25,.8,.25,1);
+}
+
+.items-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.lightmode{
+    position: absolute;
+    bottom: 10px;
+    width: 200px !important;
+}
+
+.item{
+    width: 95%;
+    color:  var(--text-color);
+    border-radius: 0px 10px 10px 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: #93C5FD;
+}
+
+.sidebar-icon{
+    margin: 0 15px 0 15px;
+    width: 23px;
+}

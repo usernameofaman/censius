@@ -1,0 +1,47 @@
+
+.card {
+    background: var(--card-color);
+    border-radius: 10px;
+    color: var(--card-text-color);
+    height: 244px;
+    margin: 1rem;
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;;
+    cursor: pointer;
+  }
+
+  .intials-circle{
+    width: 96px;
+    height: 96px;
+    background-color: #2563EB;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: -2px;
+  }
+
+  .name-designation{
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .name-title{
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  
+  .card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.9s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
