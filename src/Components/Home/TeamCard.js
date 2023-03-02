@@ -4,7 +4,6 @@ import "./TeamCard.css"
 export default function TeamCard({ member }) {
 
     const calculateInitials = (name) => {
-        console.log(name)
         let initials = ""
         if(name) initials = name;
         initials = initials.split(" ").map((n)=>n[0]).join(" ");
